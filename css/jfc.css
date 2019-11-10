@@ -1,0 +1,115 @@
+	/* jfc.css */
+	
+/* ( c ) 2012-2019 Patrick cardona */
+
+/* =================================================================== */
+/* LICENCE
+/* =================================================================== */
+/*
+@licstart  The following is the entire license notice for the 
+    CSS code in this page.
+
+Copyright (C) 2012-2019  Patrick CARDONA - Reperage
+
+    The CSS code in this page is free software: you can
+    redistribute it and/or modify it under the terms of the GNU
+    General Public License (GNU GPL) as published by the Free Software
+    Foundation, either version 3 of the License, or (at your option)
+    any later version.  The code is distributed WITHOUT ANY WARRANTY;
+    without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+    As additional permission under GNU GPL version 3 section 7, you
+    may distribute non-source (e.g., minimized or compacted) forms of
+    that code without the copy of the GNU GPL normally required by
+    section 4, provided you include this license notice and a URL
+    through which recipients can access the Corresponding Source.
+    
+@licend  The above is the entire license notice
+    for the CSS code in this page.    
+*/
+
+body {
+	background-color: white;
+}
+
+h1 {
+	font-size: 1.1em;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color: #ffaa33;	
+}
+
+#quizArea{
+		width: 20em;
+		height: 40%;
+		margin: 2em;
+}
+	
+#titre{
+		margin-left:2em;
+		margin-top:2em;	
+}
+	
+#auteur{
+		margin-left:2.7em;
+		font-family:Arial,Helvetica,"Sans serif";
+		font-size:0.8em;
+		color:gray;	/* gris */
+}
+	
+
+		
+#boite {
+	margin: 0.5em;
+	padding-top: 120px;
+	width: 500px;
+	height: 200px;
+	font-size:xx-Large;
+	vertical-align:middle;
+	text-align: center;
+	display: inline-block;
+}
+		
+.ombre {
+	border-top: thin silver solid;
+	border-left: thin silver solid;
+	box-shadow: 7px 7px 5px #656565;
+}
+		
+#appli {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#appli, #logo, #actions, #titre, #auteur, .carte, #nombre, #retourner {
+	text-align: center;
+}
+
+#retourner {
+	padding-top: 0.5em;
+}
+
+	
+.reaction {
+	display: inline-block;
+	padding: 10px;
+}
+	
+footer {
+	margin-top: 0.5em;
+	text-align:center;
+	font-size:smaller;
+	color:#666666;	
+}
+
+.blanc {
+	background-color: white;
+	}
+	
+.vert {
+	background-color: lightgreen;
+	}
+	
+.bleu {
+	background-color: lightblue;
+}

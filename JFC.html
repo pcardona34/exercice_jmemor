@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="author" content="Patrick CARDONA">
+	<title>Cartes de mémorisation</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/jfc.css" />
+	<link rel="stylesheet" type="text/css" href="css/boutons.css" />
+</head>
+
+<body>
+
+
+
+
+
+<!-- Si Javascript n'est pas autorisé -->
+<noscript>
+
+<h1>Erreur !</h1>
+	
+<p>Votre navigateur ne prend pas en charge l'exécution de scripts. Veuillez autoriser 
+l'exécution de JavaScript ou employer un navigateur adapté.</p>
+
+</noscript>
+
+<div id="conteneur">Chargement de la pile de cartes... Veuillez patienter...</div>
+
+<template id="modele">
+	
+<div id="logo"><img title="logomini" src="img/jmemor-mini.png" 
+	alt="Logo de JMemor - mini" /></div>
+
+<div id="appli">
+
+<h1 id="titre"></h1>
+<div id="nombre"></div>
+
+<div class="tableau">
+<div class="reaction">
+<a title="Je ne le sais pas encore!" href="#"><img src="img/bad.png" alt="Je ne le sais pas encore!" width="70"></a>
+</div>
+<div id="boite"></div>
+<div class="reaction">
+<a title="Je le sais déjà!" href="#"><img src="img/ok.png" alt="Je le sais déjà!" width="80" /></a>
+</div>
+</div>
+<div class="tableau">
+<div id="retourner"><a title="Retourner la carte" href="#"><img src="img/oeil.png" alt="Retourner la carte" width="104" /></a></div>
+</div>
+
+<div id="actions">
+<a title="Cliquez sur la pile pour commencer." href="#">
+<img src="img/deck.png" alt="Pile" width="439" height="200" />
+<br /><button>Commencer</button></a>
+</div>
+
+
+<footer>
+		© 2012-2019 - Patrick Cardona - <a title="apropos" href="#">JMemor</a> | 
+		<a rel="jslicense" title="licence" href="#">Licence</a> | <a href="#" title="auteur">À propos de cette série</a>
+</footer>
+
+</div>
+
+
+</template>
+
+<!-- Chargement des scripts en fin de document pour une meilleure optimisation -->
+	<script src="lib/js/lic.js"></script>
+	<script src="lib/js/apropos.js"></script>
+	<script src="js/jfc.js"></script>
+	<script src="js/interface.js"></script>
+
+</body>
+</html>
