@@ -1,19 +1,20 @@
-'use strict'
-
-// jfc.js
-// ( c ) 2012-2019 Patrick cardona
-// Version : 2.0.0
+/*
+ * chargement.css
+ *  
+ * ( c ) 2019 Patrick Cardona
+ * JEcho : exercice de réécriture de JDicto
+ */
 
 /* =================================================================== */
 /* LICENCE
 /* =================================================================== */
 /*
 @licstart  The following is the entire license notice for the 
-    JavaScript code in this page.
+    CSS code in this page.
 
-Copyright (C) 2012-2019  Patrick CARDONA - exercice_jmemor
+Copyright (C) 2019 Patrick CARDONA - JEcho, exercice de Réécriture
 
-    The JavaScript code in this page is free software: you can
+    The CSS code in this page is free software: you can
     redistribute it and/or modify it under the terms of the GNU
     General Public License (GNU GPL) as published by the Free Software
     Foundation, either version 3 of the License, or (at your option)
@@ -28,26 +29,11 @@ Copyright (C) 2012-2019  Patrick CARDONA - exercice_jmemor
     through which recipients can access the Corresponding Source.
     
 @licend  The above is the entire license notice
-    for the JavaScript code in this page.    
+    for the CSS code in this page.    
 */
 
-
-// On prépare les variables permettant de gérer les données
-// On leur donne une valeur par défaut...
-// Et on les associe au type 'flash cards' :
-var series = [
-	{"ques": "recto", "ans": "verso"},
-	{"ques": "Première lettre", "ans": "A"}
-	];
-var options = "null";
-
-var quiz = { "cards":series };
-/* Auteur de la série */
-var auteur = "Anonyme";
-/* Thème de la série ou du test */
-var theme = "Exemple";
-
-var face=[];
-var pile=[];
-var cartes = 0;
-var i=0;
+.chargement {
+	text-align: center;
+	color: darkgray;
+	font-size: LARGE;
+}
