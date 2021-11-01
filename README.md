@@ -1,3 +1,5 @@
+### Ce projet est caduc et archivé : je vous recommande de migrer vers sa version améliorée, [ejMemor](https://github.com/pcardona34/ejmemor)...
+
 # exercice_jmemor
 
 Exercice de mémorisation (flashcards) conçu au moyen du générateur de JMemor
